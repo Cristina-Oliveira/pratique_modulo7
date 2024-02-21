@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <h2>Soma dos números inteiros</h2>
+        <form id="formulario">
+            <input type="number"  id="campo-a" required placeholder="Primeiro número">
+            <p class="erro">O primeiro número deve ser menor que o segundo</p>
+            <input type="number"  id="campo-b" required placeholder="Segundo número">
+            <button type="submit" id="btn">Enviar</button>
+            <p class="final">Parabéns!</p>
+        </form>
+    </div>
+    <div id="sucesso"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
